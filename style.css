@@ -1,0 +1,24 @@
+.html5-video-player, .html5-main-video {
+    border-radius: 1rem !important;
+}
+.ytp-play-progress, .ytp-scrubber-button {
+    background-color: #2accc9 !important;
+}
+
+ytd-watch-flexy[theater] #player-container {
+    height: calc(100vh - 56px) !important;
+    max-height: unset !important;
+}
+
+ytd-watch-flexy[fullscreen] #player-container {
+    height: 100vh !important;
+}
+
+ytd-watch-flexy[theater] #player-theater-container {
+    height: calc(100vh - 56px) !important;
+    max-height: calc(100vh - 56px) !important;
+}
+
+ytd-watch-flexy[fullscreen] #player-theater-container {
+    max-height: 100vh !important;
+}

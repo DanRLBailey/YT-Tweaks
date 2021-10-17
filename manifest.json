@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube Tweaks",
+  "version": "1.0.0",
+  "description": "Dan's little extension",
+  "short_name": "Dan's little extension",
+  "permissions": ["activeTab", "declarativeContent"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["style.css"]
+    }
+  ],
+  "browser_action": {
+  }
+ }
